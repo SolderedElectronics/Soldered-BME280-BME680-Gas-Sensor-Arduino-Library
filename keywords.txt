@@ -11,6 +11,13 @@
 ##################################################
 
 begin	KEYWORD2
+readTemperature  KEYWORD2
+readPressure KEYWORD2
+readHumidity KEYWORD2
+readAltitude KEYWORD2
+readGasResistance KEYWORD2
+readSensorData KEYWORD2
+calculataAltitude KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)

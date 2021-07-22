@@ -6,7 +6,7 @@
  *
 
  *
- * @authors     @ soldered.com
+ * @authors     Zvonimir Haramustek for Soldered.com
  ***************************************************/
 
 #include "easyC.h"
