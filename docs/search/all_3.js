@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['easyc_4',['EasyC',['../class_easy_c.html',1,'EasyC'],['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC::EasyC()']]],
-  ['easyc_2ecpp_5',['easyC.cpp',['../easy_c_8cpp.html',1,'']]],
-  ['easyc_2eh_6',['easyC.h',['../easy_c_8h.html',1,'']]],
-  ['err_7',['err',['../class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853',1,'EasyC']]]
+  ['calculatealtitude_111',['calculateAltitude',['../class_b_m_e680.html#a9a631c1c8fb95aed5cb64ed2fb1779a0',1,'BME680']]],
+  ['commoninitialization_112',['commonInitialization',['../class_b_m_e680___class.html#a6e6f4979d285555153cbb6d510198802',1,'BME680_Class']]]
 ];

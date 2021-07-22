@@ -6,6 +6,8 @@ var annotated_dup =
     [ "About Soldered", "index.html#autotoc_md4", null ],
     [ "Original source", "index.html#autotoc_md5", null ],
     [ "Open-source license", "index.html#autotoc_md6", null ],
-    [ "EasyC", "class_easy_c.html", "class_easy_c" ],
-    [ "Sensor", "class_sensor.html", "class_sensor" ]
+    [ "BME280", "class_b_m_e280.html", "class_b_m_e280" ],
+    [ "BME680", "class_b_m_e680.html", "class_b_m_e680" ],
+    [ "BME680_Class", "class_b_m_e680___class.html", "class_b_m_e680___class" ],
+    [ "EasyC", "class_easy_c.html", "class_easy_c" ]
 ];

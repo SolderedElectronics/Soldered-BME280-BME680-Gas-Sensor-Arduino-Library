@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['easyc_28',['EasyC',['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC']]]
+  ['calculatealtitude_195',['calculateAltitude',['../class_b_m_e680.html#a9a631c1c8fb95aed5cb64ed2fb1779a0',1,'BME680']]],
+  ['commoninitialization_196',['commonInitialization',['../class_b_m_e680___class.html#a6e6f4979d285555153cbb6d510198802',1,'BME680_Class']]]
 ];
