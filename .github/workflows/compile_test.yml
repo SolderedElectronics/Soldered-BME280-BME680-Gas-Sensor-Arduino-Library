@@ -1,0 +1,39 @@
+name: Compile Sketches
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        board:
+          - fqbn: Croduino_Boards:avr:basic2
+          - fqbn: Croduino_Boards:avr:basic3
+          - fqbn: Croduino_Boards:esp8266:NOVA
+          - fqbn: Croduino_Boards:esp8266:NOVA2
+          - fqbn: Croduino_Boards:esp8266:miniNOVA2
+
+    steps:
+      - name: Checkout dev branch
+        uses: actions/checkout@v2
+
+      - run: echo ${{ matrix.board.fqbn }}
+
+      - name: Compile examples
+        uses: arduino/compile-sketches@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          platforms: |
+            - name: "arduino:avr"
+
+            - source-url: https://github.com/e-radionicacom/Croduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Croduino_Boards_index.json
+              name: "Croduino_Boards:avr"
+
+            - source-url: https://github.com/e-radionicacom/Croduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Croduino_Boards_index.json
+              name: "Croduino_Boards:esp8266"
+          fqbn: ${{ matrix.board.fqbn }}
+          libraries: |
+            - source-path: ./
+          sketch-paths: |
+            - ./examples/
