@@ -9,8 +9,8 @@
  * @authors     Zvonimir Haramustek for Soldered.com
  ***************************************************/
 
-#ifndef __SENSOR__
-#define __SENSOR__
+#ifndef __BME680_SOLDERED__
+#define __BME680_SOLDERED__
 
 #include "Arduino.h"
 #include "libs/BME680/src/Zanshin_BME680.h"
