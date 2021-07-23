@@ -1,8 +1,8 @@
 /**
  **************************************************
  *
- * @file        BMEx80-SOLDERED.cpp
- * @brief       Simplified BMEx80 board for soldered board
+ * @file        BME680-SOLDERED.cpp
+ * @brief       Simplified BME680 board for soldered board
  *
  *
  * @copyright GNU General Public License v3.0
@@ -10,16 +10,16 @@
  ***************************************************/
 
 
-#include "BMEx80-SOLDERED.h"
+#include "BME680-SOLDERED.h"
 
 
 /**
- * @brief  BMEx80_Solderered begin method, should be called before using the class
+ * @brief  BME680_Soldered begin method, should be called before using the class
  */
 void BME680::begin()
 {
     for (int i = 0; i < 10 && !BME680_Class::begin(); ++i)
-        delay(10);
+        delay(1000);
 
     // Usually default settings are fine.
     BME680_Class::setOversampling(TemperatureSensor, Oversample16); // Use enumerated type values
@@ -45,14 +45,14 @@ float BME680::readTemperature()
 /**
  * @brief         BME680 Pressure method
  *
- * @returns float Pressure in Pa
+ * @returns float Pressure in hPa
  */
 float BME680::readPressure()
 {
     int32_t temp, humidity, pressure, gas;
     BME680_Class::getSensorData(temp, humidity, pressure, gas);
 
-    return humidity / 100.0;
+    return pressure / 1000.0;
 }
 
 /**
@@ -65,7 +65,7 @@ float BME680::readHumidity()
     int32_t temp, humidity, pressure, gas;
     BME680_Class::getSensorData(temp, humidity, pressure, gas);
 
-    return pressure / 1000.0;
+    return humidity / 100.0;
 }
 
 /**
@@ -96,7 +96,7 @@ float BME680::readGasResistance()
 }
 
 /**
- * @brief                    BME680 Gas resistance method, default at 320 degrees for 150ms
+ * @brief                    BME680 all sensor data method
  *
  * @param float& temp        Temperature in degree C
  * @param float& humidity    Humidity in %
@@ -115,7 +115,7 @@ void BME680::readSensorData(float &temp, float &humidity, float &pressure, float
 }
 
 /**
- * @brief                BME680 Gas resistance method, default at 320 degrees for 150ms
+ * @brief                BME680 altitude calculation method
  *
  * @param float pressure Pressure in Pa
  *
