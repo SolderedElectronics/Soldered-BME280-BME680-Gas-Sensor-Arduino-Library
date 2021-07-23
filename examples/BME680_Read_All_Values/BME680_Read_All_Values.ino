@@ -9,7 +9,7 @@
  * @authors     Zvonimir Haramustek for Soldered.com
  ***************************************************/
 
-#include "BMEx80-SOLDERED.h"
+#include "BME680-SOLDERED.h"
 
 // Declare your sensors here
 BME680 bme680;

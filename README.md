@@ -1,11 +1,11 @@
-# BMEx80 EasyC Arduino library
+# BME280 and BME680 EasyC Arduino library
 
 [![Compile Sketches](https://github.com/e-radionicacom/Soldered-BMEx80-Arduino-Library/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-BMEx80-Arduino-Library/actions/workflows/compile_test.yml)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-BMEx80-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-BMEx80-Arduino-Library/actions/workflows/make_docs.yml)
 
-| ![BMEx80 EasyC Board](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![BME680 EasyC Board](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)    |
 | :---------------------------------------------------------------------------------------------: |
-| [BMEx80 EasyC Board](https://www.solde.red/333035)                                                            |
+| [BME680 EasyC Board](https://www.solde.red/333035)                                              |
 
 Simple temperature, humidity, pressure and voc board compliant to [easyC ecosystem](https://www.soldered.com/easyC). 
 
@@ -15,7 +15,7 @@ Simple temperature, humidity, pressure and voc board compliant to [easyC ecosyst
 - ***other*** - *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager.
 
 ### Hardware design
-You can find hardware design for this board in BMEx80 EasyC Board hardware repository
+You can find hardware design for this board in BME280 and BME680 EasyC Board hardware repository
 
 ### Documentation
 

@@ -1,8 +1,8 @@
 /**
  **************************************************
  *
- * @file        BMEx80-SOLDERED.h
- * @brief       Header file for BMEx80-SOLDERED board
+ * @file        BME680-SOLDERED.h
+ * @brief       Header file for BME680-SOLDERED board
  *
  *
  * @copyright GNU General Public License v3.0
@@ -13,19 +13,10 @@
 #define __SENSOR__
 
 #include "Arduino.h"
-#include "libs/BME680/src/Zanshin_BME680.h"
+#include "libs/BME280/src/BME280.h"
 #include "libs/Generic-easyC/easyC.h"
 
-class BME280 : public EasyC
-{
-  public:
-  protected:
-    void initializeNative(){};
-
-  private:
-};
-
-class BME680 : public BME680_Class
+class BME280 : public BME280_Class
 {
   public:
     void begin();
@@ -35,7 +26,7 @@ class BME680 : public BME680_Class
     float readHumidity();
     float readAltitude();
     float readGasResistance();
-    void readSensorData(float &temp, float &humidity, float &pressure, float &gas);
+    void readSensorData(float &temp, float &humidity, float &pressure);
 
     float calculateAltitude(float pressure);
 

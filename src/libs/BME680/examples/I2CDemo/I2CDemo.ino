@@ -67,7 +67,7 @@ Written by Arnd <Arnd@Zanduino.Com> at https://www.github.com/SV-Zanshin
 | 1.0.1   | 2019-01-26 | SV-Zanshin | Issue #3  convert documentation to Doxygen                   |
 | 1.0.0b  | 2018-06-30 | SV-Zanshin |           Cloned from original BME280 program                |
 */
-#include "BMEx80-SOLDERED.h" // Include the bme680 Sensor library
+#include "BME680-SOLDERED.h" // Include the bme680 Sensor library
 /**************************************************************************************************
 ** Declare all program constants                                                                 **
 **************************************************************************************************/
