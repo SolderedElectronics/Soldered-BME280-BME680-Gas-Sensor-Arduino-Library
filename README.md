@@ -6,6 +6,7 @@
 | ![BME680 EasyC Board](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg)    |
 | :---------------------------------------------------------------------------------------------: |
 | [BME680 EasyC Board](https://www.solde.red/333035)                                              |
+| [BME280 EasyC Board](https://www.solde.red/333036)                                              |
 
 Simple temperature, humidity, pressure and voc board compliant to [easyC ecosystem](https://www.soldered.com/easyC). 
 
@@ -37,7 +38,7 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 
 ### Original source
 ​
-This library is possible thanks to original [BME680](https://github.com/Zanduino/BME680) library. Thank you, Zanduino. 
+This library is possible thanks to original [BME680](https://github.com/Zanduino/BME680) and  [BME280](https://github.com/Zanduino/BME280) library. Thank you, Zanduino. 
 
 
 ### Open-source license
