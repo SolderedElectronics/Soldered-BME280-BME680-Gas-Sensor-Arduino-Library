@@ -25,7 +25,6 @@ class BME280 : public BME280_Class
     float readPressure();
     float readHumidity();
     float readAltitude();
-    float readGasResistance();
     void readSensorData(float &temp, float &humidity, float &pressure);
 
     float calculateAltitude(float pressure);
