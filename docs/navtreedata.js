@@ -24,8 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "BMEx80 easyC Library", "index.html", [
-    [ "BMEx80 EasyC Arduino library", "index.html", null ],
+  [ "BME280 and BME680 easyC Library", "index.html", [
+    [ "BME280 and BME680 EasyC Arduino library", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -50,7 +50,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_b_m_ex80-_s_o_l_d_e_r_e_d_8cpp.html"
+"_b_m_e280-_s_o_l_d_e_r_e_d_8cpp.html",
+"class_b_m_e280___class.html#a67132fa5d401cd500b6074b9a084d948"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

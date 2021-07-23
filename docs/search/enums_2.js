@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sensortypes_339',['sensorTypes',['../_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2',1,'Zanshin_BME680.h']]]
+  ['oversamplingtypes_486',['oversamplingTypes',['../_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620',1,'oversamplingTypes():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620',1,'oversamplingTypes():&#160;Zanshin_BME680.h']]]
 ];

@@ -1,4 +1,29 @@
 var searchData=
 [
-  ['measuring_138',['measuring',['../class_b_m_e680___class.html#a3b80b3a0e3592a7b769ff66fcdbaa056',1,'BME680_Class']]]
+  ['i2c_5ffast_5fmode_181',['I2C_FAST_MODE',['../_b_m_e280_8h.html#a575b1d77d752156e2175f705573647b7',1,'I2C_FAST_MODE():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#a575b1d77d752156e2175f705573647b7',1,'I2C_FAST_MODE():&#160;Zanshin_BME680.h']]],
+  ['i2c_5ffast_5fmode_5fplus_182',['I2C_FAST_MODE_PLUS',['../_zanshin___b_m_e680_8h.html#a875790cc4599ac8d56430c1f3e54daa5',1,'Zanshin_BME680.h']]],
+  ['i2c_5ffast_5fmode_5fplus_5fmode_183',['I2C_FAST_MODE_PLUS_MODE',['../_b_m_e280_8h.html#af270b48deda721358069b9d029837aaa',1,'BME280.h']]],
+  ['i2c_5fhigh_5fspeed_5fmode_184',['I2C_HIGH_SPEED_MODE',['../_b_m_e280_8h.html#a4fa63c7d7ea29d06b825a86baa622b2b',1,'I2C_HIGH_SPEED_MODE():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#a4fa63c7d7ea29d06b825a86baa622b2b',1,'I2C_HIGH_SPEED_MODE():&#160;Zanshin_BME680.h']]],
+  ['i2c_5fstandard_5fmode_185',['I2C_STANDARD_MODE',['../_b_m_e280_8h.html#a348cbfad3423827f84b19829d91be1a7',1,'I2C_STANDARD_MODE():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#a348cbfad3423827f84b19829d91be1a7',1,'I2C_STANDARD_MODE():&#160;Zanshin_BME680.h']]],
+  ['iir128_186',['IIR128',['../_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca729d9e93f5b6cbf059cabca52ab79950',1,'Zanshin_BME680.h']]],
+  ['iir16_187',['IIR16',['../_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991cacd2be2c05b5abdb0dcc43a0633cd5bf3',1,'IIR16():&#160;Zanshin_BME680.h'],['../_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991cacd2be2c05b5abdb0dcc43a0633cd5bf3',1,'IIR16():&#160;BME280.h']]],
+  ['iir2_188',['IIR2',['../_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca5cfc23c3d68867da829310a4ab5ff98a',1,'IIR2():&#160;Zanshin_BME680.h'],['../_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca5cfc23c3d68867da829310a4ab5ff98a',1,'IIR2():&#160;BME280.h']]],
+  ['iir32_189',['IIR32',['../_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca65e275b9ab171c8d820f8e06749f0366',1,'Zanshin_BME680.h']]],
+  ['iir4_190',['IIR4',['../_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca204dca1b12b960bb038a6ddd63c358a5',1,'IIR4():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca204dca1b12b960bb038a6ddd63c358a5',1,'IIR4():&#160;Zanshin_BME680.h']]],
+  ['iir64_191',['IIR64',['../_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca3c81b0b13e93b9edbce5f96954cfcf1e',1,'Zanshin_BME680.h']]],
+  ['iir8_192',['IIR8',['../_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca8eb52ef4afb948b6e25c6b52410701a9',1,'IIR8():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca8eb52ef4afb948b6e25c6b52410701a9',1,'IIR8():&#160;Zanshin_BME680.h']]],
+  ['iirfilter_193',['iirFilter',['../class_b_m_e280___class.html#a62b2139b7769782e7e24259add5ab27b',1,'BME280_Class']]],
+  ['iirfiltertypes_194',['iirFilterTypes',['../_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991c',1,'iirFilterTypes():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991c',1,'iirFilterTypes():&#160;Zanshin_BME680.h']]],
+  ['iiroff_195',['IIROff',['../_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca35a0bf02c778934aa85f004d0d3ccf31',1,'IIROff():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca35a0bf02c778934aa85f004d0d3ccf31',1,'IIROff():&#160;Zanshin_BME680.h']]],
+  ['inactive1000ms_196',['inactive1000ms',['../_b_m_e280_8h.html#a6a654c2092276e5335d258c648b2b194a96a8b46dbc514df992860c1bb79fda68',1,'BME280.h']]],
+  ['inactive10ms_197',['inactive10ms',['../_b_m_e280_8h.html#a6a654c2092276e5335d258c648b2b194a1a3b9970cbaaf268870ca907df1345b1',1,'BME280.h']]],
+  ['inactive125ms_198',['inactive125ms',['../_b_m_e280_8h.html#a6a654c2092276e5335d258c648b2b194afb3a0fc4cc7f158e12024f6bad31aefb',1,'BME280.h']]],
+  ['inactive20ms_199',['inactive20ms',['../_b_m_e280_8h.html#a6a654c2092276e5335d258c648b2b194a8fadb27a773388d602b3b6e741deab5d',1,'BME280.h']]],
+  ['inactive250ms_200',['inactive250ms',['../_b_m_e280_8h.html#a6a654c2092276e5335d258c648b2b194a6e9797bc69fc8b6d6b1dfad3d147668f',1,'BME280.h']]],
+  ['inactive500ms_201',['inactive500ms',['../_b_m_e280_8h.html#a6a654c2092276e5335d258c648b2b194ae00ce9e69cb8ca9c390395a1862d8531',1,'BME280.h']]],
+  ['inactive63ms_202',['inactive63ms',['../_b_m_e280_8h.html#a6a654c2092276e5335d258c648b2b194a2c140ce0a04a16da56b29746780946ee',1,'BME280.h']]],
+  ['inactivehalf_203',['inactiveHalf',['../_b_m_e280_8h.html#a6a654c2092276e5335d258c648b2b194aec7b4a8d3e481580274b0a24c361be2c',1,'BME280.h']]],
+  ['inactivetime_204',['inactiveTime',['../class_b_m_e280___class.html#a6b201b48281fa9d9482d672bdf3f71d6',1,'BME280_Class']]],
+  ['inactivetimetypes_205',['inactiveTimeTypes',['../_b_m_e280_8h.html#a6a654c2092276e5335d258c648b2b194',1,'BME280.h']]],
+  ['initializenative_206',['initializeNative',['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC::initializeNative()'],['../class_b_m_e680.html#a8e7de71cce075359c2ea3bb22a26ef26',1,'BME680::initializeNative()'],['../class_b_m_e280.html#a4143f9a1f4b257afaa8e9c87cd3c8de3',1,'BME280::initializeNative()']]]
 ];

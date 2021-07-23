@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['humiditysensor_341',['HumiditySensor',['../_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a51f6e10f03af4c1a5cbda2725f05ffd9',1,'Zanshin_BME680.h']]]
+  ['gassensor_490',['GasSensor',['../_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a2fbb75a3ca87186ddbc6d4033f513ff2',1,'Zanshin_BME680.h']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>BMEx80 easyC Library: BME280 Class Reference</title>
+<title>BME280 and BME680 easyC Library: BME280 Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">BMEx80 easyC Library
+   <div id="projectname">BME280 and BME680 easyC Library
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">This is a library for the BMEx80 easyC board.</div>
+   <div id="projectbrief">This is a library for the BME 280 and BME680 easyC board.</div>
   </td>
  </tr>
  </tbody>
@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('class_b_m_e280.html',''); initResizabl
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_b_m_e280-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -94,53 +95,119 @@ $(document).ready(function(){initNavTree('class_b_m_e280.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_b_m_ex80-_s_o_l_d_e_r_e_d_8h_source.html">BMEx80-SOLDERED.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_b_m_e280-_s_o_l_d_e_r_e_d_8h_source.html">BME280-SOLDERED.h</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="class_easy_c.html">EasyC</a>.</p>
+<p>Inherits <a class="el" href="class_b_m_e280___class.html">BME280_Class</a>.</p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad94cc5be5dfef7c1b71e82a781ec5a8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280.html#ad94cc5be5dfef7c1b71e82a781ec5a8b">begin</a> ()</td></tr>
+<tr class="memdesc:ad94cc5be5dfef7c1b71e82a781ec5a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">BME280_Soldered begin method, should be called before using the class.  <a href="class_b_m_e280.html#ad94cc5be5dfef7c1b71e82a781ec5a8b">More...</a><br /></td></tr>
+<tr class="separator:ad94cc5be5dfef7c1b71e82a781ec5a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60c5f79806899d94ea69a86db6b681a4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280.html#a60c5f79806899d94ea69a86db6b681a4">readTemperature</a> ()</td></tr>
+<tr class="memdesc:a60c5f79806899d94ea69a86db6b681a4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_b_m_e280.html">BME280</a> temperature method.  <a href="class_b_m_e280.html#a60c5f79806899d94ea69a86db6b681a4">More...</a><br /></td></tr>
+<tr class="separator:a60c5f79806899d94ea69a86db6b681a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0e2cc3989e4abd811ee095da199d32"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280.html#a3f0e2cc3989e4abd811ee095da199d32">readPressure</a> ()</td></tr>
+<tr class="memdesc:a3f0e2cc3989e4abd811ee095da199d32"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_b_m_e280.html">BME280</a> Pressure method.  <a href="class_b_m_e280.html#a3f0e2cc3989e4abd811ee095da199d32">More...</a><br /></td></tr>
+<tr class="separator:a3f0e2cc3989e4abd811ee095da199d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dd443cdf86158ac5132912086b719ae"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280.html#a7dd443cdf86158ac5132912086b719ae">readHumidity</a> ()</td></tr>
+<tr class="memdesc:a7dd443cdf86158ac5132912086b719ae"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_b_m_e280.html">BME280</a> Humidity method.  <a href="class_b_m_e280.html#a7dd443cdf86158ac5132912086b719ae">More...</a><br /></td></tr>
+<tr class="separator:a7dd443cdf86158ac5132912086b719ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81fce5f656c51b767d9e42d80297b0d4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280.html#a81fce5f656c51b767d9e42d80297b0d4">readAltitude</a> ()</td></tr>
+<tr class="memdesc:a81fce5f656c51b767d9e42d80297b0d4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_b_m_e280.html">BME280</a> Altiude method.  <a href="class_b_m_e280.html#a81fce5f656c51b767d9e42d80297b0d4">More...</a><br /></td></tr>
+<tr class="separator:a81fce5f656c51b767d9e42d80297b0d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ac9efb31db1f25fad60eb430ac5f781"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280.html#a2ac9efb31db1f25fad60eb430ac5f781">readGasResistance</a> ()</td></tr>
+<tr class="separator:a2ac9efb31db1f25fad60eb430ac5f781"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6338be5b10c506c36862ef97d3dc74dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280.html#a6338be5b10c506c36862ef97d3dc74dd">readSensorData</a> (float &amp;temp, float &amp;humidity, float &amp;pressure)</td></tr>
+<tr class="memdesc:a6338be5b10c506c36862ef97d3dc74dd"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_b_m_e280.html">BME280</a> all sensor readings at once.  <a href="class_b_m_e280.html#a6338be5b10c506c36862ef97d3dc74dd">More...</a><br /></td></tr>
+<tr class="separator:a6338be5b10c506c36862ef97d3dc74dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba654302ff8dbcd9af162d6a84754842"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280.html#aba654302ff8dbcd9af162d6a84754842">calculateAltitude</a> (float pressure)</td></tr>
+<tr class="memdesc:aba654302ff8dbcd9af162d6a84754842"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_b_m_e280.html">BME280</a> Altitude method caluclation.  <a href="class_b_m_e280.html#aba654302ff8dbcd9af162d6a84754842">More...</a><br /></td></tr>
+<tr class="separator:aba654302ff8dbcd9af162d6a84754842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_b_m_e280___class"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_b_m_e280___class')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_b_m_e280___class.html">BME280_Class</a></td></tr>
+<tr class="memitem:ac3c5c64990340cf88e862e967b3d7c2b inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#ac3c5c64990340cf88e862e967b3d7c2b">BME280_Class</a> ()</td></tr>
+<tr class="memdesc:ac3c5c64990340cf88e862e967b3d7c2b inherit pub_methods_class_b_m_e280___class"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty &amp; unused class constructor.  <a href="class_b_m_e280___class.html#ac3c5c64990340cf88e862e967b3d7c2b">More...</a><br /></td></tr>
+<tr class="separator:ac3c5c64990340cf88e862e967b3d7c2b inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97fe7ef9c429e351d925b3d54da6a2af inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#a97fe7ef9c429e351d925b3d54da6a2af">~BME280_Class</a> ()</td></tr>
+<tr class="memdesc:a97fe7ef9c429e351d925b3d54da6a2af inherit pub_methods_class_b_m_e280___class"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty &amp; unused class destructor.  <a href="class_b_m_e280___class.html#a97fe7ef9c429e351d925b3d54da6a2af">More...</a><br /></td></tr>
+<tr class="separator:a97fe7ef9c429e351d925b3d54da6a2af inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4ddda02920ff6b99b82fec522ad894a inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#af4ddda02920ff6b99b82fec522ad894a">begin</a> ()</td></tr>
+<tr class="separator:af4ddda02920ff6b99b82fec522ad894a inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affbc21f51d8996de26cf21e119aaa2ca inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#affbc21f51d8996de26cf21e119aaa2ca">begin</a> (const uint32_t i2cSpeed)</td></tr>
+<tr class="separator:affbc21f51d8996de26cf21e119aaa2ca inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307cd46757b08dffe71725686a39e74c inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#a307cd46757b08dffe71725686a39e74c">begin</a> (const uint8_t chipSelect)</td></tr>
+<tr class="separator:a307cd46757b08dffe71725686a39e74c inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af92f976f0c665439e933e57f06b19850 inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#af92f976f0c665439e933e57f06b19850">begin</a> (const uint8_t chipSelect, const uint8_t mosi, const uint8_t miso, const uint8_t sck)</td></tr>
+<tr class="separator:af92f976f0c665439e933e57f06b19850 inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74ab6797d3d9a48b32bfbcc3aa91ee3a inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#a74ab6797d3d9a48b32bfbcc3aa91ee3a">mode</a> (const uint8_t operatingMode=UINT8_MAX)</td></tr>
+<tr class="separator:a74ab6797d3d9a48b32bfbcc3aa91ee3a inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe119b59b9b310b3b0f8c27a6fc7d5d5 inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#afe119b59b9b310b3b0f8c27a6fc7d5d5">setOversampling</a> (const uint8_t sensor, const uint8_t sampling)</td></tr>
+<tr class="separator:afe119b59b9b310b3b0f8c27a6fc7d5d5 inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aa0792964d01d50cd3ceb10330220d8 inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#a3aa0792964d01d50cd3ceb10330220d8">getOversampling</a> (const uint8_t sensor, const bool actual=false)</td></tr>
+<tr class="separator:a3aa0792964d01d50cd3ceb10330220d8 inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62b2139b7769782e7e24259add5ab27b inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#a62b2139b7769782e7e24259add5ab27b">iirFilter</a> (const uint8_t iirFilterSetting=UINT8_MAX)</td></tr>
+<tr class="separator:a62b2139b7769782e7e24259add5ab27b inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b201b48281fa9d9482d672bdf3f71d6 inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#a6b201b48281fa9d9482d672bdf3f71d6">inactiveTime</a> (const uint8_t inactiveTimeSetting=UINT8_MAX)</td></tr>
+<tr class="separator:a6b201b48281fa9d9482d672bdf3f71d6 inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac42abbd492d8bc51a3358270d5d9f770 inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#ac42abbd492d8bc51a3358270d5d9f770">measurementTime</a> (const uint8_t measureTimeSetting=1)</td></tr>
+<tr class="separator:ac42abbd492d8bc51a3358270d5d9f770 inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63e5350c4e615d06d6d8f4184a18564e inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#a63e5350c4e615d06d6d8f4184a18564e">getSensorData</a> (int32_t &amp;temp, int32_t &amp;hum, int32_t &amp;press)</td></tr>
+<tr class="separator:a63e5350c4e615d06d6d8f4184a18564e inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334f3bf2d9c09b92b058f9ee55ba0aa2 inherit pub_methods_class_b_m_e280___class"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280___class.html#a334f3bf2d9c09b92b058f9ee55ba0aa2">reset</a> ()</td></tr>
+<tr class="separator:a334f3bf2d9c09b92b058f9ee55ba0aa2 inherit pub_methods_class_b_m_e280___class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a4143f9a1f4b257afaa8e9c87cd3c8de3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_m_e280.html#a4143f9a1f4b257afaa8e9c87cd3c8de3">initializeNative</a> ()</td></tr>
 <tr class="separator:a4143f9a1f4b257afaa8e9c87cd3c8de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_class_easy_c"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_easy_c')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_easy_c.html">EasyC</a></td></tr>
-<tr class="memitem:a10aa7df19e8c7bf12cd720b662f317a3 inherit pro_methods_class_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3">sendAddress</a> (char regAddr)</td></tr>
-<tr class="memdesc:a10aa7df19e8c7bf12cd720b662f317a3 inherit pro_methods_class_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to send a single byte to sensor.  <a href="class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3">More...</a><br /></td></tr>
-<tr class="separator:a10aa7df19e8c7bf12cd720b662f317a3 inherit pro_methods_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a3d39be50b348768bc4b5dea3dae01a inherit pro_methods_class_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a">readData</a> (char a[], int n)</td></tr>
-<tr class="memdesc:a9a3d39be50b348768bc4b5dea3dae01a inherit pro_methods_class_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to read n bytes over i2c.  <a href="class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a">More...</a><br /></td></tr>
-<tr class="separator:a9a3d39be50b348768bc4b5dea3dae01a inherit pro_methods_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe8aa014ae53cad3b0f3c42f59277195 inherit pro_methods_class_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195">sendData</a> (const uint8_t *a, int n)</td></tr>
-<tr class="memdesc:afe8aa014ae53cad3b0f3c42f59277195 inherit pro_methods_class_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to write n bytes over i2c.  <a href="class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195">More...</a><br /></td></tr>
-<tr class="separator:afe8aa014ae53cad3b0f3c42f59277195 inherit pro_methods_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45bd6c915c1fa0998e273f69ee2d2376 inherit pro_methods_class_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376">readRegister</a> (char regAddr, char a[], size_t n)</td></tr>
-<tr class="memdesc:a45bd6c915c1fa0998e273f69ee2d2376 inherit pro_methods_class_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to send over i2c and then read n bytes.  <a href="class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376">More...</a><br /></td></tr>
-<tr class="separator:a45bd6c915c1fa0998e273f69ee2d2376 inherit pro_methods_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_methods_class_easy_c"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_easy_c')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_easy_c.html">EasyC</a></td></tr>
-<tr class="memitem:a2ea672a225a32eab52c2b20733fd26bd inherit pub_methods_class_easy_c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd">EasyC</a> ()</td></tr>
-<tr class="memdesc:a2ea672a225a32eab52c2b20733fd26bd inherit pub_methods_class_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor for easyC version.  <a href="class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd">More...</a><br /></td></tr>
-<tr class="separator:a2ea672a225a32eab52c2b20733fd26bd inherit pub_methods_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b5a82b8a59daea79de76e496457e176 inherit pub_methods_class_easy_c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a1b5a82b8a59daea79de76e496457e176">begin</a> ()</td></tr>
-<tr class="memdesc:a1b5a82b8a59daea79de76e496457e176 inherit pub_methods_class_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes sensors on native or easyC on default address.  <a href="class_easy_c.html#a1b5a82b8a59daea79de76e496457e176">More...</a><br /></td></tr>
-<tr class="separator:a1b5a82b8a59daea79de76e496457e176 inherit pub_methods_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e71467da6f38cbe47b10e96694a4f91 inherit pub_methods_class_easy_c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91">begin</a> (uint8_t _address)</td></tr>
-<tr class="memdesc:a9e71467da6f38cbe47b10e96694a4f91 inherit pub_methods_class_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes sensors on supplied i2c address.  <a href="class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91">More...</a><br /></td></tr>
-<tr class="separator:a9e71467da6f38cbe47b10e96694a4f91 inherit pub_methods_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_class_easy_c"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_easy_c')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_easy_c.html">EasyC</a></td></tr>
-<tr class="memitem:abb766b60f26778dbc64e8792fd754729 inherit pro_attribs_class_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#abb766b60f26778dbc64e8792fd754729">native</a> = 0</td></tr>
-<tr class="separator:abb766b60f26778dbc64e8792fd754729 inherit pro_attribs_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f55de657a84e73edda23dae91d30436 inherit pro_attribs_class_easy_c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a2f55de657a84e73edda23dae91d30436">beginDone</a> = 0</td></tr>
-<tr class="separator:a2f55de657a84e73edda23dae91d30436 inherit pro_attribs_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b880d5daf116adde0cc436f1e4c0853 inherit pro_attribs_class_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853">err</a></td></tr>
-<tr class="separator:a8b880d5daf116adde0cc436f1e4c0853 inherit pro_attribs_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f4c6f2e8723b0c0495e126d49f5fcda inherit pro_attribs_class_easy_c"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a6f4c6f2e8723b0c0495e126d49f5fcda">address</a></td></tr>
-<tr class="separator:a6f4c6f2e8723b0c0495e126d49f5fcda inherit pro_attribs_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9052ae674b3553bbb19283278299f395 inherit pro_attribs_class_easy_c"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a9052ae674b3553bbb19283278299f395">defaultAddress</a> = 0x30</td></tr>
-<tr class="separator:a9052ae674b3553bbb19283278299f395 inherit pro_attribs_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad94cc5be5dfef7c1b71e82a781ec5a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad94cc5be5dfef7c1b71e82a781ec5a8b">&#9670;&nbsp;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BME280::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>BME280_Soldered begin method, should be called before using the class. </p>
+
+</div>
+</div>
+<a id="aba654302ff8dbcd9af162d6a84754842"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba654302ff8dbcd9af162d6a84754842">&#9670;&nbsp;</a></span>calculateAltitude()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BME280::calculateAltitude </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>pressure</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_b_m_e280.html">BME280</a> Altitude method caluclation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">float</td><td>pressure Pressure in Pa</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>float Altiude in m </dd></dl>
+
+</div>
+</div>
 <a id="a4143f9a1f4b257afaa8e9c87cd3c8de3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4143f9a1f4b257afaa8e9c87cd3c8de3">&#9670;&nbsp;</a></span>initializeNative()</h2>
 
@@ -159,17 +226,157 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998">EasyC</a>.</p>
+</div>
+</div>
+<a id="a81fce5f656c51b767d9e42d80297b0d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81fce5f656c51b767d9e42d80297b0d4">&#9670;&nbsp;</a></span>readAltitude()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BME280::readAltitude </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_b_m_e280.html">BME280</a> Altiude method. </p>
+<dl class="section return"><dt>Returns</dt><dd>float Altitude in m </dd></dl>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="_b_m_ex80-_s_o_l_d_e_r_e_d_8h_source.html">BMEx80-SOLDERED.h</a></li>
+<a id="a2ac9efb31db1f25fad60eb430ac5f781"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac9efb31db1f25fad60eb430ac5f781">&#9670;&nbsp;</a></span>readGasResistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BME280::readGasResistance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7dd443cdf86158ac5132912086b719ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dd443cdf86158ac5132912086b719ae">&#9670;&nbsp;</a></span>readHumidity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BME280::readHumidity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_b_m_e280.html">BME280</a> Humidity method. </p>
+<dl class="section return"><dt>Returns</dt><dd>float Humidity in % </dd></dl>
+
+</div>
+</div>
+<a id="a3f0e2cc3989e4abd811ee095da199d32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0e2cc3989e4abd811ee095da199d32">&#9670;&nbsp;</a></span>readPressure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BME280::readPressure </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_b_m_e280.html">BME280</a> Pressure method. </p>
+<dl class="section return"><dt>Returns</dt><dd>float Pressure in hPa </dd></dl>
+
+</div>
+</div>
+<a id="a6338be5b10c506c36862ef97d3dc74dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6338be5b10c506c36862ef97d3dc74dd">&#9670;&nbsp;</a></span>readSensorData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BME280::readSensorData </td>
+          <td>(</td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>temp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>humidity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>pressure</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_b_m_e280.html">BME280</a> all sensor readings at once. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">float&amp;</td><td>temp Temperature in degree C </td></tr>
+    <tr><td class="paramname">float&amp;</td><td>humidity Humidity in % </td></tr>
+    <tr><td class="paramname">float&amp;</td><td>pressure Pressure in Pa </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a60c5f79806899d94ea69a86db6b681a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60c5f79806899d94ea69a86db6b681a4">&#9670;&nbsp;</a></span>readTemperature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float BME280::readTemperature </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_b_m_e280.html">BME280</a> temperature method. </p>
+<dl class="section return"><dt>Returns</dt><dd>float Tempearture in degree C </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="_b_m_e280-_s_o_l_d_e_r_e_d_8h_source.html">BME280-SOLDERED.h</a></li>
+<li><a class="el" href="_b_m_e280-_s_o_l_d_e_r_e_d_8cpp.html">BME280-SOLDERED.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -179,7 +386,7 @@ Additional Inherited Members</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_b_m_e280.html">BME280</a></li>
         <li class="footer">
-            Generated on Thu Jul 22 2021 14:16:39 for BMEx80 easyC Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Fri Jul 23 2021 06:13:47 for BME280 and BME680 easyC Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.1.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

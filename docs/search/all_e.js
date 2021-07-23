@@ -1,12 +1,15 @@
 var searchData=
 [
-  ['readme_2emd_161',['README.md',['../src_2libs_2_b_m_e680_2examples_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../src_2libs_2_b_m_e680_2_images_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../src_2libs_2_b_m_e680_2src_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)']]],
-  ['sendaddress_162',['sendAddress',['../class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3',1,'EasyC']]],
-  ['senddata_163',['sendData',['../class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195',1,'EasyC']]],
-  ['sensoroff_164',['SensorOff',['../_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620ad28e6073c3792f85ac04d1617391098d',1,'Zanshin_BME680.h']]],
-  ['sensortypes_165',['sensorTypes',['../_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2',1,'Zanshin_BME680.h']]],
-  ['setgas_166',['setGas',['../class_b_m_e680___class.html#ab33aa219dd0e878108abcbaaf34a185c',1,'BME680_Class']]],
-  ['setiirfilter_167',['setIIRFilter',['../class_b_m_e680___class.html#a1f2a706a187601526b0c8556325ecc8a',1,'BME680_Class']]],
-  ['setoversampling_168',['setOversampling',['../class_b_m_e680___class.html#a3e7705a65f0adddeba16ceee14819185',1,'BME680_Class']]],
-  ['spi_5fherz_169',['SPI_HERZ',['../_zanshin___b_m_e680_8h.html#a818d657cbae11fcd870a98afe5809608',1,'Zanshin_BME680.h']]]
+  ['readaltitude_224',['readAltitude',['../class_b_m_e280.html#a81fce5f656c51b767d9e42d80297b0d4',1,'BME280::readAltitude()'],['../class_b_m_e680.html#ab1fcbe0773130ba5ce6bd953a6cc88e6',1,'BME680::readAltitude()']]],
+  ['readbyte_225',['readByte',['../class_b_m_e280___class.html#a436331b170408fe9eaf7150114f14d8e',1,'BME280_Class::readByte()'],['../class_b_m_e680___class.html#abc3b43cd537d071813b910b91eeede50',1,'BME680_Class::readByte()']]],
+  ['readdata_226',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
+  ['readgasresistance_227',['readGasResistance',['../class_b_m_e280.html#a2ac9efb31db1f25fad60eb430ac5f781',1,'BME280::readGasResistance()'],['../class_b_m_e680.html#a811e4f15b90168ec357e8c456496e79f',1,'BME680::readGasResistance()']]],
+  ['readhumidity_228',['readHumidity',['../class_b_m_e280.html#a7dd443cdf86158ac5132912086b719ae',1,'BME280::readHumidity()'],['../class_b_m_e680.html#aace3ef2fcf236cc6bc1188f64c71e7cb',1,'BME680::readHumidity()']]],
+  ['readme_2emd_229',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['readpressure_230',['readPressure',['../class_b_m_e280.html#a3f0e2cc3989e4abd811ee095da199d32',1,'BME280::readPressure()'],['../class_b_m_e680.html#a31502cab4f58fe35debd299fc6dc1704',1,'BME680::readPressure()']]],
+  ['readregister_231',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]],
+  ['readsensordata_232',['readSensorData',['../class_b_m_e280.html#a6338be5b10c506c36862ef97d3dc74dd',1,'BME280::readSensorData()'],['../class_b_m_e680.html#ab2effee82311ae4bd315c74f3d26d8c2',1,'BME680::readSensorData()']]],
+  ['readsensors_233',['readSensors',['../class_b_m_e280___class.html#aaeb32cd9348d9f2dfe5affea28d38746',1,'BME280_Class::readSensors()'],['../class_b_m_e680___class.html#a8d99c99583d526921b249b79c05abb77',1,'BME680_Class::readSensors()']]],
+  ['readtemperature_234',['readTemperature',['../class_b_m_e280.html#a60c5f79806899d94ea69a86db6b681a4',1,'BME280::readTemperature()'],['../class_b_m_e680.html#a3bcd8e73f943b0e136349c82077f0b45',1,'BME680::readTemperature()']]],
+  ['reset_235',['reset',['../class_b_m_e280___class.html#a334f3bf2d9c09b92b058f9ee55ba0aa2',1,'BME280_Class::reset()'],['../class_b_m_e680___class.html#a60539ad30b61e41dc0252b06ccc0652b',1,'BME680_Class::reset()']]]
 ];

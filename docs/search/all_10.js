@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['unknowniir_172',['UnknownIIR',['../_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca25b9dd86e6a1fbd28a5f3d6f78f3e1b9',1,'Zanshin_BME680.h']]],
-  ['unknownoversample_173',['UnknownOversample',['../_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620aad9d0a651f0139f32287c274dc2be2f2',1,'Zanshin_BME680.h']]],
-  ['unknownsensor_174',['UnknownSensor',['../_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a2163b24c7f11b5281168fd5f6145fd32',1,'Zanshin_BME680.h']]]
+  ['temperaturesensor_247',['TemperatureSensor',['../_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a8bba46b0c90e1e7513c4101878c4506d',1,'TemperatureSensor():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a8bba46b0c90e1e7513c4101878c4506d',1,'TemperatureSensor():&#160;Zanshin_BME680.h']]],
+  ['triggermeasurement_248',['triggerMeasurement',['../class_b_m_e680___class.html#a7d6604f4c468f33ee38dcf385b909b7d',1,'BME680_Class']]],
+  ['typicalmeasure_249',['TypicalMeasure',['../_b_m_e280_8h.html#ad6bdc9018cff0f82e87e0494c044953ba3f2556af879722672f662e557c8bb06c',1,'BME280.h']]]
 ];

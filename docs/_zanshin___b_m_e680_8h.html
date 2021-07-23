@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>BMEx80 easyC Library: Zanshin_BME680.h File Reference</title>
+<title>BME280 and BME680 easyC Library: Zanshin_BME680.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">BMEx80 easyC Library
+   <div id="projectname">BME280 and BME680 easyC Library
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">This is a library for the BMEx80 easyC board.</div>
+   <div id="projectbrief">This is a library for the BME 280 and BME680 easyC board.</div>
   </td>
  </tr>
  </tbody>
@@ -106,6 +106,11 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:abefe73e0c0fc481cb3fcffb44ec093f2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2">sensorTypes</a> { <br />
+&#160;&#160;<a class="el" href="_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a8bba46b0c90e1e7513c4101878c4506d">TemperatureSensor</a>
+, <a class="el" href="_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a51f6e10f03af4c1a5cbda2725f05ffd9">HumiditySensor</a>
+, <a class="el" href="_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2abdb1211a4edcb2c46e40f0d378a88e60">PressureSensor</a>
+, <a class="el" href="_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a2163b24c7f11b5281168fd5f6145fd32">UnknownSensor</a>
+, <br />
 &#160;&#160;<a class="el" href="_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a8bba46b0c90e1e7513c4101878c4506d">TemperatureSensor</a>
 , <a class="el" href="_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a51f6e10f03af4c1a5cbda2725f05ffd9">HumiditySensor</a>
 , <a class="el" href="_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2abdb1211a4edcb2c46e40f0d378a88e60">PressureSensor</a>
@@ -117,30 +122,46 @@ Enumerations</h2></td></tr>
 <tr class="memdesc:abefe73e0c0fc481cb3fcffb44ec093f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerate the sensor type.  <a href="_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2">More...</a><br /></td></tr>
 <tr class="separator:abefe73e0c0fc481cb3fcffb44ec093f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5833bdd04da4d5224e3e2c4435e05620"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620">oversamplingTypes</a> { <br />
-&#160;&#160;<a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620ad28e6073c3792f85ac04d1617391098d">SensorOff</a>
-, <a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620abe5287966a4247069b999935d9dffb67">Oversample1</a>
+&#160;&#160;<a class="el" href="_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620ad28e6073c3792f85ac04d1617391098d">SensorOff</a>
+, <a class="el" href="_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620abe5287966a4247069b999935d9dffb67">Oversample1</a>
+, <a class="el" href="_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620a92c2c9accd7856c73f5cbd31339b8300">Oversample2</a>
+, <a class="el" href="_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620a189e09eb25ce363651f582b9710f9d08">Oversample4</a>
+, <br />
+&#160;&#160;<a class="el" href="_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620a81116c2f38aac44450536a028d4d54ea">Oversample8</a>
+, <a class="el" href="_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620af38aadfb2d58850717552ea3e942449b">Oversample16</a>
+, <a class="el" href="_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620aad9d0a651f0139f32287c274dc2be2f2">UnknownOversample</a>
+, <a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620ad28e6073c3792f85ac04d1617391098d">SensorOff</a>
+, <br />
+&#160;&#160;<a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620abe5287966a4247069b999935d9dffb67">Oversample1</a>
 , <a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620a92c2c9accd7856c73f5cbd31339b8300">Oversample2</a>
 , <a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620a189e09eb25ce363651f582b9710f9d08">Oversample4</a>
+, <a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620a81116c2f38aac44450536a028d4d54ea">Oversample8</a>
 , <br />
-&#160;&#160;<a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620a81116c2f38aac44450536a028d4d54ea">Oversample8</a>
-, <a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620af38aadfb2d58850717552ea3e942449b">Oversample16</a>
+&#160;&#160;<a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620af38aadfb2d58850717552ea3e942449b">Oversample16</a>
 , <a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620aad9d0a651f0139f32287c274dc2be2f2">UnknownOversample</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a5833bdd04da4d5224e3e2c4435e05620"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerate the Oversampling types.  <a href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620">More...</a><br /></td></tr>
 <tr class="separator:a5833bdd04da4d5224e3e2c4435e05620"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f6cef16a63b2abb900de00e609f991c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991c">iirFilterTypes</a> { <br />
-&#160;&#160;<a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca35a0bf02c778934aa85f004d0d3ccf31">IIROff</a>
+&#160;&#160;<a class="el" href="_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca35a0bf02c778934aa85f004d0d3ccf31">IIROff</a>
+, <a class="el" href="_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca5cfc23c3d68867da829310a4ab5ff98a">IIR2</a>
+, <a class="el" href="_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca204dca1b12b960bb038a6ddd63c358a5">IIR4</a>
+, <a class="el" href="_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca8eb52ef4afb948b6e25c6b52410701a9">IIR8</a>
+, <br />
+&#160;&#160;<a class="el" href="_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991cacd2be2c05b5abdb0dcc43a0633cd5bf3">IIR16</a>
+, <a class="el" href="_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca25b9dd86e6a1fbd28a5f3d6f78f3e1b9">UnknownIIR</a>
+, <a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca35a0bf02c778934aa85f004d0d3ccf31">IIROff</a>
 , <a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca5cfc23c3d68867da829310a4ab5ff98a">IIR2</a>
-, <a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca204dca1b12b960bb038a6ddd63c358a5">IIR4</a>
+, <br />
+&#160;&#160;<a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca204dca1b12b960bb038a6ddd63c358a5">IIR4</a>
 , <a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca8eb52ef4afb948b6e25c6b52410701a9">IIR8</a>
-, <br />
-&#160;&#160;<a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991cacd2be2c05b5abdb0dcc43a0633cd5bf3">IIR16</a>
+, <a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991cacd2be2c05b5abdb0dcc43a0633cd5bf3">IIR16</a>
 , <a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca65e275b9ab171c8d820f8e06749f0366">IIR32</a>
-, <a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca3c81b0b13e93b9edbce5f96954cfcf1e">IIR64</a>
-, <a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca729d9e93f5b6cbf059cabca52ab79950">IIR128</a>
 , <br />
-&#160;&#160;<a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca25b9dd86e6a1fbd28a5f3d6f78f3e1b9">UnknownIIR</a>
+&#160;&#160;<a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca3c81b0b13e93b9edbce5f96954cfcf1e">IIR64</a>
+, <a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca729d9e93f5b6cbf059cabca52ab79950">IIR128</a>
+, <a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca25b9dd86e6a1fbd28a5f3d6f78f3e1b9">UnknownIIR</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a4f6cef16a63b2abb900de00e609f991c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerate the iir filter types.  <a href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991c">More...</a><br /></td></tr>
@@ -172,7 +193,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991c">iirFilterTypes</a></td>
+          <td class="memname">enum <a class="el" href="_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991c">iirFilterTypes</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -180,6 +201,12 @@ Variables</h2></td></tr>
 <p>Enumerate the iir filter types. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4f6cef16a63b2abb900de00e609f991ca35a0bf02c778934aa85f004d0d3ccf31"></a>IIROff&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4f6cef16a63b2abb900de00e609f991ca5cfc23c3d68867da829310a4ab5ff98a"></a>IIR2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4f6cef16a63b2abb900de00e609f991ca204dca1b12b960bb038a6ddd63c358a5"></a>IIR4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4f6cef16a63b2abb900de00e609f991ca8eb52ef4afb948b6e25c6b52410701a9"></a>IIR8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4f6cef16a63b2abb900de00e609f991cacd2be2c05b5abdb0dcc43a0633cd5bf3"></a>IIR16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4f6cef16a63b2abb900de00e609f991ca25b9dd86e6a1fbd28a5f3d6f78f3e1b9"></a>UnknownIIR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4f6cef16a63b2abb900de00e609f991ca35a0bf02c778934aa85f004d0d3ccf31"></a>IIROff&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4f6cef16a63b2abb900de00e609f991ca5cfc23c3d68867da829310a4ab5ff98a"></a>IIR2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4f6cef16a63b2abb900de00e609f991ca204dca1b12b960bb038a6ddd63c358a5"></a>IIR4&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4f6cef16a63b2abb900de00e609f991ca8eb52ef4afb948b6e25c6b52410701a9"></a>IIR8&#160;</td><td class="fielddoc"></td></tr>
@@ -199,7 +226,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620">oversamplingTypes</a></td>
+          <td class="memname">enum <a class="el" href="_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620">oversamplingTypes</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -207,6 +234,13 @@ Variables</h2></td></tr>
 <p>Enumerate the Oversampling types. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5833bdd04da4d5224e3e2c4435e05620ad28e6073c3792f85ac04d1617391098d"></a>SensorOff&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5833bdd04da4d5224e3e2c4435e05620abe5287966a4247069b999935d9dffb67"></a>Oversample1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5833bdd04da4d5224e3e2c4435e05620a92c2c9accd7856c73f5cbd31339b8300"></a>Oversample2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5833bdd04da4d5224e3e2c4435e05620a189e09eb25ce363651f582b9710f9d08"></a>Oversample4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5833bdd04da4d5224e3e2c4435e05620a81116c2f38aac44450536a028d4d54ea"></a>Oversample8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5833bdd04da4d5224e3e2c4435e05620af38aadfb2d58850717552ea3e942449b"></a>Oversample16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5833bdd04da4d5224e3e2c4435e05620aad9d0a651f0139f32287c274dc2be2f2"></a>UnknownOversample&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5833bdd04da4d5224e3e2c4435e05620ad28e6073c3792f85ac04d1617391098d"></a>SensorOff&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5833bdd04da4d5224e3e2c4435e05620abe5287966a4247069b999935d9dffb67"></a>Oversample1&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5833bdd04da4d5224e3e2c4435e05620a92c2c9accd7856c73f5cbd31339b8300"></a>Oversample2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5833bdd04da4d5224e3e2c4435e05620a189e09eb25ce363651f582b9710f9d08"></a>Oversample4&#160;</td><td class="fielddoc"></td></tr>
@@ -224,7 +258,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2">sensorTypes</a></td>
+          <td class="memname">enum <a class="el" href="_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2">sensorTypes</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -232,6 +266,10 @@ Variables</h2></td></tr>
 <p>Enumerate the sensor type. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abefe73e0c0fc481cb3fcffb44ec093f2a8bba46b0c90e1e7513c4101878c4506d"></a>TemperatureSensor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abefe73e0c0fc481cb3fcffb44ec093f2a51f6e10f03af4c1a5cbda2725f05ffd9"></a>HumiditySensor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abefe73e0c0fc481cb3fcffb44ec093f2abdb1211a4edcb2c46e40f0d378a88e60"></a>PressureSensor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abefe73e0c0fc481cb3fcffb44ec093f2a2163b24c7f11b5281168fd5f6145fd32"></a>UnknownSensor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abefe73e0c0fc481cb3fcffb44ec093f2a8bba46b0c90e1e7513c4101878c4506d"></a>TemperatureSensor&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abefe73e0c0fc481cb3fcffb44ec093f2a51f6e10f03af4c1a5cbda2725f05ffd9"></a>HumiditySensor&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abefe73e0c0fc481cb3fcffb44ec093f2abdb1211a4edcb2c46e40f0d378a88e60"></a>PressureSensor&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abefe73e0c0fc481cb3fcffb44ec093f2a2fbb75a3ca87186ddbc6d4033f513ff2"></a>GasSensor&#160;</td><td class="fielddoc"></td></tr>
@@ -329,7 +367,7 @@ Variables</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_87a455bccb09a92130c26a11a880c98a.html">libs</a></li><li class="navelem"><a class="el" href="dir_315f43020694f4a154c467c1355c1e95.html">BME680</a></li><li class="navelem"><a class="el" href="dir_c5348eb39322cd3c006a0a4fb0fbca4a.html">src</a></li><li class="navelem"><a class="el" href="_zanshin___b_m_e680_8h.html">Zanshin_BME680.h</a></li>
         <li class="footer">
-            Generated on Thu Jul 22 2021 14:16:39 for BMEx80 easyC Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Fri Jul 23 2021 06:13:46 for BME280 and BME680 easyC Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.1.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
