@@ -9,8 +9,8 @@
  * @authors     Zvonimir Haramustek for Soldered.com
  ***************************************************/
 
-#ifndef __SENSOR__
-#define __SENSOR__
+#ifndef __BME280_SOLDERED__
+#define __BME280_SOLDERED__
 
 #include "Arduino.h"
 #include "libs/BME280/src/BME280.h"
