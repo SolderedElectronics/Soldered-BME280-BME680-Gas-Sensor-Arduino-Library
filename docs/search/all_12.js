@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['waitforreadings_256',['waitForReadings',['../class_b_m_e680___class.html#a105a4f579d53a1ee7b5c496383df8f00',1,'BME680_Class']]],
-  ['webpagecontents_2eh_257',['WebPageContents.h',['../_web_page_contents_8h.html',1,'']]]
+  ['waitforreadings_255',['waitForReadings',['../class_b_m_e680___class.html#a105a4f579d53a1ee7b5c496383df8f00',1,'BME680_Class']]]
 ];

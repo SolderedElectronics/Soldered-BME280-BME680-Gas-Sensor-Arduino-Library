@@ -14,7 +14,6 @@ var files_dup =
     [ "easyC.h", "easy_c_8h.html", [
       [ "EasyC", "class_easy_c.html", "class_easy_c" ]
     ] ],
-    [ "WebPageContents.h", "_web_page_contents_8h.html", "_web_page_contents_8h" ],
     [ "Zanshin_BME680.cpp", "_zanshin___b_m_e680_8cpp.html", "_zanshin___b_m_e680_8cpp" ],
     [ "Zanshin_BME680.h", "_zanshin___b_m_e680_8h.html", "_zanshin___b_m_e680_8h" ]
 ];
