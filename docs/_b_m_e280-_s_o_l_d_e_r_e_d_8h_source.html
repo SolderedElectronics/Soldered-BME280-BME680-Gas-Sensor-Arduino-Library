@@ -96,33 +96,32 @@ $(document).ready(function(){initNavTree('_b_m_e280-_s_o_l_d_e_r_e_d_8h_source.h
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;Arduino.h&quot;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_b_m_e280_8h.html">libs/BME280/src/BME280.h</a>&quot;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;libs/Generic-easyC/easyC.h&quot;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_b_m_e280.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_b_m_e280.html">BME280</a> : <span class="keyword">public</span> <a class="code" href="class_b_m_e280___class.html">BME280_Class</a></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_b_m_e280.html#ad94cc5be5dfef7c1b71e82a781ec5a8b">begin</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_b_m_e280.html#a60c5f79806899d94ea69a86db6b681a4">readTemperature</a>();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_b_m_e280.html#a3f0e2cc3989e4abd811ee095da199d32">readPressure</a>();</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_b_m_e280.html#a7dd443cdf86158ac5132912086b719ae">readHumidity</a>();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_b_m_e280.html#a81fce5f656c51b767d9e42d80297b0d4">readAltitude</a>();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_b_m_e280.html#a6338be5b10c506c36862ef97d3dc74dd">readSensorData</a>(<span class="keywordtype">float</span> &amp;temp, <span class="keywordtype">float</span> &amp;humidity, <span class="keywordtype">float</span> &amp;pressure);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_b_m_e280.html#aba654302ff8dbcd9af162d6a84754842">calculateAltitude</a>(<span class="keywordtype">float</span> pressure);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_b_m_e280.html#a4143f9a1f4b257afaa8e9c87cd3c8de3">   33</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_b_m_e280.html#a4143f9a1f4b257afaa8e9c87cd3c8de3">initializeNative</a>(){};</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_b_m_e280.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_b_m_e280.html">BME280</a> : <span class="keyword">public</span> <a class="code" href="class_b_m_e280___class.html">BME280_Class</a></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_b_m_e280.html#ad94cc5be5dfef7c1b71e82a781ec5a8b">begin</a>();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_b_m_e280.html#a60c5f79806899d94ea69a86db6b681a4">readTemperature</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_b_m_e280.html#a3f0e2cc3989e4abd811ee095da199d32">readPressure</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_b_m_e280.html#a7dd443cdf86158ac5132912086b719ae">readHumidity</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_b_m_e280.html#a81fce5f656c51b767d9e42d80297b0d4">readAltitude</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_b_m_e280.html#a6338be5b10c506c36862ef97d3dc74dd">readSensorData</a>(<span class="keywordtype">float</span> &amp;temp, <span class="keywordtype">float</span> &amp;humidity, <span class="keywordtype">float</span> &amp;pressure);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_b_m_e280.html#aba654302ff8dbcd9af162d6a84754842">calculateAltitude</a>(<span class="keywordtype">float</span> pressure);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_b_m_e280.html#a4143f9a1f4b257afaa8e9c87cd3c8de3">   32</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_b_m_e280.html#a4143f9a1f4b257afaa8e9c87cd3c8de3">initializeNative</a>(){};</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="a_b_m_e280_8h_html"><div class="ttname"><a href="_b_m_e280_8h.html">BME280.h</a></div></div>
 <div class="ttc" id="aclass_b_m_e280___class_html"><div class="ttname"><a href="class_b_m_e280___class.html">BME280_Class</a></div><div class="ttdoc">BME280 Class definition.</div><div class="ttdef"><b>Definition:</b> BME280.h:185</div></div>
-<div class="ttc" id="aclass_b_m_e280_html"><div class="ttname"><a href="class_b_m_e280.html">BME280</a></div><div class="ttdef"><b>Definition:</b> BME280-SOLDERED.h:20</div></div>
+<div class="ttc" id="aclass_b_m_e280_html"><div class="ttname"><a href="class_b_m_e280.html">BME280</a></div><div class="ttdef"><b>Definition:</b> BME280-SOLDERED.h:19</div></div>
 <div class="ttc" id="aclass_b_m_e280_html_a3f0e2cc3989e4abd811ee095da199d32"><div class="ttname"><a href="class_b_m_e280.html#a3f0e2cc3989e4abd811ee095da199d32">BME280::readPressure</a></div><div class="ttdeci">float readPressure()</div><div class="ttdoc">BME280 Pressure method.</div><div class="ttdef"><b>Definition:</b> BME280-SOLDERED.cpp:51</div></div>
-<div class="ttc" id="aclass_b_m_e280_html_a4143f9a1f4b257afaa8e9c87cd3c8de3"><div class="ttname"><a href="class_b_m_e280.html#a4143f9a1f4b257afaa8e9c87cd3c8de3">BME280::initializeNative</a></div><div class="ttdeci">void initializeNative()</div><div class="ttdef"><b>Definition:</b> BME280-SOLDERED.h:33</div></div>
+<div class="ttc" id="aclass_b_m_e280_html_a4143f9a1f4b257afaa8e9c87cd3c8de3"><div class="ttname"><a href="class_b_m_e280.html#a4143f9a1f4b257afaa8e9c87cd3c8de3">BME280::initializeNative</a></div><div class="ttdeci">void initializeNative()</div><div class="ttdef"><b>Definition:</b> BME280-SOLDERED.h:32</div></div>
 <div class="ttc" id="aclass_b_m_e280_html_a60c5f79806899d94ea69a86db6b681a4"><div class="ttname"><a href="class_b_m_e280.html#a60c5f79806899d94ea69a86db6b681a4">BME280::readTemperature</a></div><div class="ttdeci">float readTemperature()</div><div class="ttdoc">BME280 temperature method.</div><div class="ttdef"><b>Definition:</b> BME280-SOLDERED.cpp:38</div></div>
 <div class="ttc" id="aclass_b_m_e280_html_a6338be5b10c506c36862ef97d3dc74dd"><div class="ttname"><a href="class_b_m_e280.html#a6338be5b10c506c36862ef97d3dc74dd">BME280::readSensorData</a></div><div class="ttdeci">void readSensorData(float &amp;temp, float &amp;humidity, float &amp;pressure)</div><div class="ttdoc">BME280 all sensor readings at once.</div><div class="ttdef"><b>Definition:</b> BME280-SOLDERED.cpp:93</div></div>
 <div class="ttc" id="aclass_b_m_e280_html_a7dd443cdf86158ac5132912086b719ae"><div class="ttname"><a href="class_b_m_e280.html#a7dd443cdf86158ac5132912086b719ae">BME280::readHumidity</a></div><div class="ttdeci">float readHumidity()</div><div class="ttdoc">BME280 Humidity method.</div><div class="ttdef"><b>Definition:</b> BME280-SOLDERED.cpp:64</div></div>
@@ -137,7 +136,7 @@ $(document).ready(function(){initNavTree('_b_m_e280-_s_o_l_d_e_r_e_d_8h_source.h
     <ul>
         <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="_b_m_e280-_s_o_l_d_e_r_e_d_8h.html">BME280-SOLDERED.h</a></li>
         <li class="footer">
-            Generated on Thu Aug 12 2021 07:11:08 for BME280 and BME680 easyC Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Aug 12 2021 07:13:30 for BME280 and BME680 easyC Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.1.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
