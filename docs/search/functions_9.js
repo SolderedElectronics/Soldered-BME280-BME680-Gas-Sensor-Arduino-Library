@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['triggermeasurement_311',['triggerMeasurement',['../class_b_m_e680___class.html#a7d6604f4c468f33ee38dcf385b909b7d',1,'BME680_Class']]]
+  ['waitforreadings_292',['waitForReadings',['../class_b_m_e680___class.html#a105a4f579d53a1ee7b5c496383df8f00',1,'BME680_Class']]]
 ];

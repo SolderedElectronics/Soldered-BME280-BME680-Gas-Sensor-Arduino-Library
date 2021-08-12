@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['maximummeasure_207',['MaximumMeasure',['../_b_m_e280_8h.html#ad6bdc9018cff0f82e87e0494c044953baa5e5ef63092e103649214a989d3f66a9',1,'BME280.h']]],
-  ['measurementtime_208',['measurementTime',['../class_b_m_e280___class.html#ac42abbd492d8bc51a3358270d5d9f770',1,'BME280_Class']]],
-  ['measuretimetypes_209',['measureTimeTypes',['../_b_m_e280_8h.html#ad6bdc9018cff0f82e87e0494c044953b',1,'BME280.h']]],
-  ['measuring_210',['measuring',['../class_b_m_e680___class.html#a3b80b3a0e3592a7b769ff66fcdbaa056',1,'BME680_Class']]],
-  ['mode_211',['mode',['../class_b_m_e280___class.html#a74ab6797d3d9a48b32bfbcc3aa91ee3a',1,'BME280_Class']]],
-  ['modetypes_212',['modeTypes',['../_b_m_e280_8h.html#a41d7411b9529fc3d5566ed62c5f7b464',1,'BME280.h']]]
+  ['pressuresensor_213',['PressureSensor',['../_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2abdb1211a4edcb2c46e40f0d378a88e60',1,'PressureSensor():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2abdb1211a4edcb2c46e40f0d378a88e60',1,'PressureSensor():&#160;Zanshin_BME680.h']]],
+  ['putdata_214',['putData',['../class_b_m_e280___class.html#aded16474f03b0f707ace5dc14cdea769',1,'BME280_Class::putData()'],['../class_b_m_e680___class.html#abf27ebd1aa22b1d2aa4db81825a7cb10',1,'BME680_Class::putData()']]]
 ];

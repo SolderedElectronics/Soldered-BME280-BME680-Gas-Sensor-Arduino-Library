@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['gassensor_174',['GasSensor',['../_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a2fbb75a3ca87186ddbc6d4033f513ff2',1,'Zanshin_BME680.h']]],
-  ['getcalibration_175',['getCalibration',['../class_b_m_e280___class.html#a690694622bcaa3dcdf226ca8fd550e53',1,'BME280_Class::getCalibration()'],['../class_b_m_e680___class.html#add604df10b7ca811c652c0cf672194db',1,'BME680_Class::getCalibration()']]],
-  ['getdata_176',['getData',['../class_b_m_e280___class.html#aa829e62c4c7d566dbc5c963fc56b7134',1,'BME280_Class::getData()'],['../class_b_m_e680___class.html#a4669f2b0ca649f114468916b46269f4e',1,'BME680_Class::getData(const uint8_t addr, T &amp;value) const']]],
-  ['geti2caddress_177',['getI2CAddress',['../class_b_m_e680___class.html#a04d23e7f2f7a23c22339b0bfaa0e316a',1,'BME680_Class']]],
-  ['getoversampling_178',['getOversampling',['../class_b_m_e280___class.html#a3aa0792964d01d50cd3ceb10330220d8',1,'BME280_Class']]],
-  ['getsensordata_179',['getSensorData',['../class_b_m_e280___class.html#a63e5350c4e615d06d6d8f4184a18564e',1,'BME280_Class::getSensorData()'],['../class_b_m_e680___class.html#a8b291ae32b68545bc9944d8c515adf7d',1,'BME680_Class::getSensorData()']]]
+  ['maximummeasure_200',['MaximumMeasure',['../_b_m_e280_8h.html#ad6bdc9018cff0f82e87e0494c044953baa5e5ef63092e103649214a989d3f66a9',1,'BME280.h']]],
+  ['measurementtime_201',['measurementTime',['../class_b_m_e280___class.html#ac42abbd492d8bc51a3358270d5d9f770',1,'BME280_Class']]],
+  ['measuretimetypes_202',['measureTimeTypes',['../_b_m_e280_8h.html#ad6bdc9018cff0f82e87e0494c044953b',1,'BME280.h']]],
+  ['measuring_203',['measuring',['../class_b_m_e680___class.html#a3b80b3a0e3592a7b769ff66fcdbaa056',1,'BME680_Class']]],
+  ['mode_204',['mode',['../class_b_m_e280___class.html#a74ab6797d3d9a48b32bfbcc3aa91ee3a',1,'BME280_Class']]],
+  ['modetypes_205',['modeTypes',['../_b_m_e280_8h.html#a41d7411b9529fc3d5566ed62c5f7b464',1,'BME280.h']]]
 ];
