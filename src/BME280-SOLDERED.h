@@ -14,7 +14,6 @@
 
 #include "Arduino.h"
 #include "libs/BME280/src/BME280.h"
-#include "libs/Generic-easyC/easyC.h"
 
 class BME280 : public BME280_Class
 {
