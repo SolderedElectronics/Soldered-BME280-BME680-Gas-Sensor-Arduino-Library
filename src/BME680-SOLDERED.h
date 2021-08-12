@@ -14,7 +14,6 @@
 
 #include "Arduino.h"
 #include "libs/BME680/src/Zanshin_BME680.h"
-#include "libs/Generic-easyC/easyC.h"
 
 class BME680 : public BME680_Class
 {
