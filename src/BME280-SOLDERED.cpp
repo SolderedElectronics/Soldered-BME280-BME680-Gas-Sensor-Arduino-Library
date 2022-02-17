@@ -26,8 +26,8 @@ void BME280::begin()
     BME280_Class::setOversampling(TemperatureSensor, Oversample16); // Use enumerated type values
     BME280_Class::setOversampling(HumiditySensor, Oversample16);    // Use enumerated type values
     BME280_Class::setOversampling(PressureSensor, Oversample16);    // Use enumerated type values
-    
-    BME280_Class::iirFilter(IIR16);                                 // Use enumerated type values
+
+    BME280_Class::iirFilter(IIR16); // Use enumerated type values
     BME280_Class::inactiveTime(inactive1000ms);
 }
 
