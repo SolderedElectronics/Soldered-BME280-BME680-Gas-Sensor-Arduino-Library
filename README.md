@@ -22,7 +22,7 @@ You can find hardware design for this board in BME280 and BME680 EasyC Board har
 
 Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-BME280-And-BME680-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the BME280 and BME680 EasyC board
 - Installing an Arduino library
 
 ### About Soldered
