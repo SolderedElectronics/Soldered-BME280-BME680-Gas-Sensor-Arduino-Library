@@ -25,7 +25,9 @@
 var NAVTREE =
 [
   [ "BME280 and BME680 easyC Library", "index.html", [
-    [ "BME280 and BME680 EasyC Arduino library", "index.html", null ],
+    [ "BME280 and BME680 EasyC Arduino library", "index.html", [
+      [ "Have fun!", "index.html#autotoc_md8", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
