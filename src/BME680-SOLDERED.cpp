@@ -16,17 +16,24 @@
 /**
  * @brief  BME680_Soldered begin method, should be called before using the class
  */
-void BME680::begin()
+bool BME680::begin()
 {
-    for (int i = 0; i < 10 && !BME680_Class::begin(); ++i)
-        delay(1000);
+    // for (int i = 0; i < 10 && !BME680_Class::begin(); ++i)
+    //     delay(1000);
 
-    // Usually default settings are fine.
-    BME680_Class::setOversampling(TemperatureSensor, Oversample16); // Use enumerated type values
-    BME680_Class::setOversampling(HumiditySensor, Oversample16);    // Use enumerated type values
-    BME680_Class::setOversampling(PressureSensor, Oversample16);    // Use enumerated type values
-    BME680_Class::setIIRFilter(IIR4);                               // Use enumerated type values
-    BME680_Class::setGas(320, 150);
+    bool returnValue = BME680_Class::begin();
+
+    if (returnValue)
+    {
+        // Usually default settings are fine.
+        BME680_Class::setOversampling(TemperatureSensor, Oversample16); // Use enumerated type values
+        BME680_Class::setOversampling(HumiditySensor, Oversample16);    // Use enumerated type values
+        BME680_Class::setOversampling(PressureSensor, Oversample16);    // Use enumerated type values
+        BME680_Class::setIIRFilter(IIR4);                               // Use enumerated type values
+        BME680_Class::setGas(320, 150);
+    }
+
+    return returnValue;
 }
 
 /**
