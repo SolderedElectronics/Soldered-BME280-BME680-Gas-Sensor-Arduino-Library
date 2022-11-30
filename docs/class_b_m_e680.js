@@ -1,6 +1,6 @@
 var class_b_m_e680 =
 [
-    [ "begin", "class_b_m_e680.html#a9e790e0a67da4ad93650b0754ad7cc5e", null ],
+    [ "begin", "class_b_m_e680.html#afd778fed1ea66a5c93ef34e8482b5e2c", null ],
     [ "calculateAltitude", "class_b_m_e680.html#a9a631c1c8fb95aed5cb64ed2fb1779a0", null ],
     [ "initializeNative", "class_b_m_e680.html#a8e7de71cce075359c2ea3bb22a26ef26", null ],
     [ "readAltitude", "class_b_m_e680.html#ab1fcbe0773130ba5ce6bd953a6cc88e6", null ],
