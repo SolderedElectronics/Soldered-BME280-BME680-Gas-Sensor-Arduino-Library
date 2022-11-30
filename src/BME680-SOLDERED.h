@@ -18,7 +18,7 @@
 class BME680 : public BME680_Class
 {
   public:
-    void begin();
+    bool begin();
 
     float readTemperature();
     float readPressure();
