@@ -11,5 +11,6 @@ jobs:
       - uses: arduino/arduino-lint-action@v1
         with:
           compliance: specification
+          library-manager: update
           project-type: library
           recursive: true
