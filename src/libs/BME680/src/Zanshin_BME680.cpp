@@ -352,11 +352,10 @@ uint8_t BME680_Class::setOversampling(const uint8_t sensor, const uint8_t sampli
                 (uint8_t)tempRegister);  // Update humidity bits 5:7
       }                                  // if-then return current value or set new value
       break;
-    }  // of TemperatureSensor
-    default:
-      return (UINT8_MAX);  // Return an error if no match
-  }                        // of switch the sensor type
-  return (returnValue);    // Otherwise return current value
+    }                             // of TemperatureSensor
+    default: return (UINT8_MAX);  // Return an error if no match
+  }                               // of switch the sensor type
+  return (returnValue);           // Otherwise return current value
 }  // of method setOversampling()
 uint8_t BME680_Class::setIIRFilter(const uint8_t iirFilterSetting) const {
   /*!
@@ -508,8 +507,7 @@ void BME680_Class::waitForReadings() const {
   /*!
    @brief   Only returns once a measurement on the BME680 has completed
    */
-  while (measuring()) {
-  }  // loop until any active measurment is complete
+  while (measuring()) {}  // loop until any active measurment is complete
 }  // of method waitForReadings
 bool BME680_Class::setGas(uint16_t GasTemp, uint16_t GasMillis) const {
   /*!

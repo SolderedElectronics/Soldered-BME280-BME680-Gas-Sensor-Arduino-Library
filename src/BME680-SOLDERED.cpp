@@ -59,7 +59,7 @@ float BME680::readPressure()
     int32_t temp, humidity, pressure, gas;
     BME680_Class::getSensorData(temp, humidity, pressure, gas);
 
-    return pressure / 1000.0;
+    return pressure / 100.0;
 }
 
 /**
@@ -72,7 +72,7 @@ float BME680::readHumidity()
     int32_t temp, humidity, pressure, gas;
     BME680_Class::getSensorData(temp, humidity, pressure, gas);
 
-    return humidity / 100.0;
+    return humidity / 1000.0;
 }
 
 /**
