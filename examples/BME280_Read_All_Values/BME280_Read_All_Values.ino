@@ -67,6 +67,4 @@ void loop() // Temperature is not factory calibrated, you can add offset to it
     Serial.print("Altitude: " + String(altitude2) + " m");
     Serial.println();
     Serial.println();
-
-    delay(1000);
 }

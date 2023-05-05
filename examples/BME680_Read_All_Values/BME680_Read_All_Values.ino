@@ -25,29 +25,34 @@ void setup()
 
 void loop() // Temperature is not factory calibrated, you can add offset to it
 {
-    float offset = 0; // offset in °C
+    float offset = -4; // offset in °C
 
     Serial.println("Reading one by one: ");
 
     float temperature = bme680.readTemperature() + offset;
     Serial.print("Temperature: ");
-    Serial.println(temperature);
+    Serial.print(temperature);
+    Serial.println(" C");
 
     float humidity = bme680.readHumidity();
     Serial.print("Humidity: ");
-    Serial.println(humidity);
+    Serial.print(humidity);
+    Serial.println(" %");
 
     float pressure = bme680.readPressure();
     Serial.print("Pressure: ");
-    Serial.println(pressure);
-
-    float altitude = bme680.readAltitude();
-    Serial.print("Altitude: ");
-    Serial.println(altitude);
+    Serial.print(pressure);
+    Serial.println(" hPa");
 
     float gas = bme680.readGasResistance();
     Serial.print("Gas: ");
-    Serial.println(gas);
+    Serial.print(gas);
+    Serial.println(" mOhm");
+
+    float altitude = bme680.readAltitude();
+    Serial.print("Altitude: ");
+    Serial.print(altitude);
+    Serial.println(" m");
 
     delay(1000);
 
