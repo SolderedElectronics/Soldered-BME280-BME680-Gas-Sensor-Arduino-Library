@@ -6,11 +6,11 @@
 
 | ![Enviromental & air quality sensor BME680 breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :-------------------------------------------------------------------------------------------------------------------------: |
-|               [Enviromental & air quality sensor BME680 breakout](https://www.solde.red/333035)                             |
+|               [Enviromental & air quality sensor BME680 breakout](https://solde.red/333035)                             |
 
 | ![Enviromental sensor BME280 breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :-----------------------------------------------------------------------------------------------------------: |
-|                      [Enviromental sensor BME280 breakout](https://www.solde.red/333036)                      |
+|                      [Enviromental sensor BME280 breakout](https://solde.red/333036)                      |
 
 The BME680 is an atmospheric sensor that measures four values: temperature, pressure, humidity and air quality as an IAQ index. Using that data is can calculate elevation. It is really simple to use considering that it's using I2C communication protocol and it's dimensions are really small so it can fit anywhere. Everything you need to know about the atmospheric conditions and the quality of the air - you can find out using this sensor (ideal for wather station projects!) This board comes with two easyC connectors and provides easy connections.
 
