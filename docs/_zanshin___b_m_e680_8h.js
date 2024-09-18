@@ -2,12 +2,6 @@ var _zanshin___b_m_e680_8h =
 [
     [ "BME680_Class", "class_b_m_e680___class.html", "class_b_m_e680___class" ],
     [ "iirFilterTypes", "_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991c", [
-      [ "IIROff", "_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca35a0bf02c778934aa85f004d0d3ccf31", null ],
-      [ "IIR2", "_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca5cfc23c3d68867da829310a4ab5ff98a", null ],
-      [ "IIR4", "_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca204dca1b12b960bb038a6ddd63c358a5", null ],
-      [ "IIR8", "_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca8eb52ef4afb948b6e25c6b52410701a9", null ],
-      [ "IIR16", "_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991cacd2be2c05b5abdb0dcc43a0633cd5bf3", null ],
-      [ "UnknownIIR", "_b_m_e280_8h.html#a4f6cef16a63b2abb900de00e609f991ca25b9dd86e6a1fbd28a5f3d6f78f3e1b9", null ],
       [ "IIROff", "_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca35a0bf02c778934aa85f004d0d3ccf31", null ],
       [ "IIR2", "_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca5cfc23c3d68867da829310a4ab5ff98a", null ],
       [ "IIR4", "_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca204dca1b12b960bb038a6ddd63c358a5", null ],
@@ -19,13 +13,6 @@ var _zanshin___b_m_e680_8h =
       [ "UnknownIIR", "_zanshin___b_m_e680_8h.html#a4f6cef16a63b2abb900de00e609f991ca25b9dd86e6a1fbd28a5f3d6f78f3e1b9", null ]
     ] ],
     [ "oversamplingTypes", "_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620", [
-      [ "SensorOff", "_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620ad28e6073c3792f85ac04d1617391098d", null ],
-      [ "Oversample1", "_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620abe5287966a4247069b999935d9dffb67", null ],
-      [ "Oversample2", "_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620a92c2c9accd7856c73f5cbd31339b8300", null ],
-      [ "Oversample4", "_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620a189e09eb25ce363651f582b9710f9d08", null ],
-      [ "Oversample8", "_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620a81116c2f38aac44450536a028d4d54ea", null ],
-      [ "Oversample16", "_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620af38aadfb2d58850717552ea3e942449b", null ],
-      [ "UnknownOversample", "_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620aad9d0a651f0139f32287c274dc2be2f2", null ],
       [ "SensorOff", "_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620ad28e6073c3792f85ac04d1617391098d", null ],
       [ "Oversample1", "_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620abe5287966a4247069b999935d9dffb67", null ],
       [ "Oversample2", "_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620a92c2c9accd7856c73f5cbd31339b8300", null ],
@@ -35,10 +22,6 @@ var _zanshin___b_m_e680_8h =
       [ "UnknownOversample", "_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620aad9d0a651f0139f32287c274dc2be2f2", null ]
     ] ],
     [ "sensorTypes", "_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2", [
-      [ "TemperatureSensor", "_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a8bba46b0c90e1e7513c4101878c4506d", null ],
-      [ "HumiditySensor", "_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a51f6e10f03af4c1a5cbda2725f05ffd9", null ],
-      [ "PressureSensor", "_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2abdb1211a4edcb2c46e40f0d378a88e60", null ],
-      [ "UnknownSensor", "_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a2163b24c7f11b5281168fd5f6145fd32", null ],
       [ "TemperatureSensor", "_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a8bba46b0c90e1e7513c4101878c4506d", null ],
       [ "HumiditySensor", "_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2a51f6e10f03af4c1a5cbda2725f05ffd9", null ],
       [ "PressureSensor", "_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2abdb1211a4edcb2c46e40f0d378a88e60", null ],

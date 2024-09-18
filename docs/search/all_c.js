@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['readme_2emd_0',['README.md',['../src_2libs_2_b_m_e680_2_images_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../src_2libs_2_b_m_e680_2src_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)']]],
-  ['sensoroff_1',['SensorOff',['../_b_m_e280_8h.html#a5833bdd04da4d5224e3e2c4435e05620ad28e6073c3792f85ac04d1617391098d',1,'SensorOff():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#a5833bdd04da4d5224e3e2c4435e05620ad28e6073c3792f85ac04d1617391098d',1,'SensorOff():&#160;Zanshin_BME680.h']]],
-  ['sensortypes_2',['sensorTypes',['../_b_m_e280_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2',1,'sensorTypes():&#160;BME280.h'],['../_zanshin___b_m_e680_8h.html#abefe73e0c0fc481cb3fcffb44ec093f2',1,'sensorTypes():&#160;Zanshin_BME680.h']]],
-  ['setgas_3',['setGas',['../class_b_m_e680___class.html#ab33aa219dd0e878108abcbaaf34a185c',1,'BME680_Class']]],
-  ['setiirfilter_4',['setIIRFilter',['../class_b_m_e680___class.html#a1f2a706a187601526b0c8556325ecc8a',1,'BME680_Class']]],
-  ['setoversampling_5',['setOversampling',['../class_b_m_e280___class.html#afe119b59b9b310b3b0f8c27a6fc7d5d5',1,'BME280_Class::setOversampling()'],['../class_b_m_e680___class.html#a3e7705a65f0adddeba16ceee14819185',1,'BME680_Class::setOversampling()']]],
-  ['sleepmode_6',['SleepMode',['../_b_m_e280_8h.html#a41d7411b9529fc3d5566ed62c5f7b464af506150a1adba765a12710e76cd026b3',1,'BME280.h']]],
-  ['spi_5fhertz_7',['SPI_HERTZ',['../_b_m_e280_8h.html#a480e3ae01b1b51b0a1cdee53a8ccf866',1,'BME280.h']]],
-  ['spi_5fherz_8',['SPI_HERZ',['../_zanshin___b_m_e680_8h.html#a818d657cbae11fcd870a98afe5809608',1,'Zanshin_BME680.h']]]
+  ['maximummeasure_0',['MaximumMeasure',['../_b_m_e280_8h.html#ad6bdc9018cff0f82e87e0494c044953baa5e5ef63092e103649214a989d3f66a9',1,'BME280.h']]],
+  ['measurementtime_1',['measurementTime',['../class_b_m_e280___class.html#ac42abbd492d8bc51a3358270d5d9f770',1,'BME280_Class']]],
+  ['measuretimetypes_2',['measureTimeTypes',['../_b_m_e280_8h.html#ad6bdc9018cff0f82e87e0494c044953b',1,'BME280.h']]],
+  ['measuring_3',['measuring',['../class_b_m_e680___class.html#a3b80b3a0e3592a7b769ff66fcdbaa056',1,'BME680_Class']]],
+  ['mode_4',['mode',['../class_b_m_e280___class.html#a74ab6797d3d9a48b32bfbcc3aa91ee3a',1,'BME280_Class']]],
+  ['modetypes_5',['modeTypes',['../_b_m_e280_8h.html#a41d7411b9529fc3d5566ed62c5f7b464',1,'BME280.h']]]
 ];
