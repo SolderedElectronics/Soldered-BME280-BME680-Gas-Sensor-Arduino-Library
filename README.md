@@ -4,11 +4,11 @@
 [![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-BME280-BME680-Gas-Sensor-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-BME280-BME680-Gas-Sensor-Arduino-Library/actions/workflows/arduino_lint.yml)
 
 
-| ![Enviromental & air quality sensor BME680 breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Enviromental & air quality sensor BME680 breakout](https://soldered.com/cdn/shop/files/333035_featured-photo_aa4c80_09915cbd-77dc-4c53-919b-e71d59e4a165.jpg) |
 | :-------------------------------------------------------------------------------------------------------------------------: |
 |               [Enviromental & air quality sensor BME680 breakout](https://solde.red/333035)                             |
 
-| ![Enviromental sensor BME280 breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Enviromental sensor BME280 breakout](https://soldered.com/cdn/shop/files/333036_featured-photo_3e3126.jpg) |
 | :-----------------------------------------------------------------------------------------------------------: |
 |                      [Enviromental sensor BME280 breakout](https://solde.red/333036)                      |
 
